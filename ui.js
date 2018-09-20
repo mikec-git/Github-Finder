@@ -75,7 +75,7 @@ class UI {
         container.insertBefore(div, search);
 
         setTimeout(() => {
-            document.querySelector('.alert.alert-danger').remove();
+            this.clearAlert();
         },3000)
     }
 
